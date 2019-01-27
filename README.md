@@ -11,15 +11,15 @@ Nowadays you can buy handy little USB programmer board for the ESP8266-01 and th
 The only anoying thing is they have no RESET or PROGRAMMING (GPIO0) buttons.
 But this is easily to solve, because the pins of the yellow socket are quite long and you can solder your own button board under the programmer board.
 
-![side view](./img_0242.jpg)
+![side view](./IMG_0242.jpg)
 
 You have to solder the two buttons and three wires only and you are ready :-)
 
-![bottom view](./img_0243.jpg)
+![bottom view](./IMG_0243.jpg)
 
 The right button is the PROGRAMMING (GPIO0) button the left one is the RESET button. The best way to put your ESP in programming mode is to use one finger press down the PROGRAMMING button and with the same finger press down the RESET button. Release the buttons first RESET than PROGRAMMING and your ESP is in programming mode.
 
-![bottom view](./img_0244.jpg)
+![bottom view](./IMG_0244.jpg)
 
 If your serial monitor speed is set to 74880 you will see this message:
 
@@ -28,6 +28,10 @@ If your serial monitor speed is set to 74880 you will see this message:
 boot mode (1,x) means programming mode
 
 boot mode (3,x) is the running mode
+
+## Program
+
+The board files are created with [KiCad EDA](http://kicad-pcb.org/).
 
 ---
 
